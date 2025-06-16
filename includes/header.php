@@ -67,6 +67,9 @@
                         <a class="nav-link" href="index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="about.php">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="services.php">Layanan</a>
                     </li>
                     <li class="nav-item">

@@ -94,6 +94,10 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
                            href="bookings.php">
                             <i class="fas fa-calendar-check me-2"></i>Kelola Pesanan
                         </a>
+                        <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'profile.php' ? 'active' : ''; ?>" 
+                           href="profile.php">
+                            <i class="fas fa-building me-2"></i>Profil Perusahaan
+                        </a>
                         <hr class="text-white-50">
                         <a class="nav-link" href="logout.php">
                             <i class="fas fa-sign-out-alt me-2"></i>Logout
